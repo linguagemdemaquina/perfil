@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+body {
+    background-color: rgb(163, 198, 210);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.85rem;
+  }
+a:link, a:visited, a:active{
+    color: rgb(36, 36, 40);
+}
+a:hover{
+    color: rgb(240, 240, 240);
+}
+label{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+input{
+    height: 20px;
+    border-radius: 0.3rem;
+}
+.botao_formulario{
+    width: 8rem;
+}
+.fa-users, .fa-user-pen, .fa-key, .fa-house{
+    color: rgb(41, 52, 63);
+    padding-top: 2rem;
+    font-size: 5rem;
+}
+.div_titulo_secao{
+    text-align: center;
+    height: 250px;
+}
+.div_principal{
+    text-align: center;
+    padding-top: 0.85rem;
+    width: 80%;
+    margin-left: 10%;
+}
+.div_titulo_matricula, .div_titulo_grupo{
+    width: 7.5%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(83, 103, 110);
+    color: aliceblue;
+}
+.div_titulo_nome{
+    width: 50%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(83, 103, 110);
+    color: aliceblue;
+}
+.div_titulo_funcao{
+    width: 15%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(83, 103, 110);
+    color: aliceblue;
+}
+.div_interna{
+    position: relative;
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+ }
+.div_conteudo_matricula,.div_conteudo_grupo {
+    width: 7.5%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(161, 168, 181);
+}
+.div_conteudo_nome {
+    width: 50%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(161, 168, 181);
+}
+.div_conteudo_funcao {
+    width: 15%;
+    position:relative;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(161, 168, 181);
+}
+.div_conteudo_matricula,.div_conteudo_nome,.div_conteudo_grupo,.div_conteudo_funcao {
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+.div_rodape{
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 80%;
+    height: 60px;
+    margin-left: 10%;
+}
+.div_principal_detalhe{
+    position:relative;
+    display:inline-block;
+    background-color: rgb(83, 103, 110);
+    text-align: center;
+    padding-top: 0.85rem;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 0.5rem;
+    height: 0.85rem;
+}
+.div_interna_detalhe{
+    position:relative;
+    display:inline-block;
+    background-color: rgb(213, 228, 234);
+    text-align: center;
+    padding-top: 0.85rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 0.3rem;
+    border-radius: 0.5rem;
+}
+.div_interna_login{
+    position:relative;
+    display:inline-block;
+    background-color: rgb(213, 228, 234);
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+    width: 70%;
+    height: 180px;
+    margin-left: 15%;
+    margin-bottom: 0.3rem;
+    border-radius: 0.5rem;
+}
+.logomarca{
+    width:16%;
+    margin-left: 42%;
+    height: 8rem;
+    position:relative;
+    background-size:contain;
+    background-image: url(../imagens/logo.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-bottom: 2rem;
+}
+.div_geral_menu_botoes{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.div_botao_menu{
+    width: 30%;
+    position:relative;
+    display:inline-block;
+    margin: 0.5rem;
+}
+@media only screen and (max-width: 600px) {
+    body {
+         font-size: 0.55rem;
+    }
+    .botao_formulario{
+        width: 6rem;
+    }
+    .div_titulo_secao{
+        height: 200px; 
+    }
+    .div_principal{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .div_interna{
+        width: 94%;
+        margin-left: 3%;
+     }
+     .div_titulo_matricula,.div_titulo_nome,.div_titulo_grupo,.div_titulo_funcao {
+        padding-left: 0.45rem;
+        padding-right: 0.45rem;
+    }
+    .div_conteudo_matricula,.div_conteudo_grupo {
+        width: 7.5%;
+        padding: 0.45rem;
+    }
+    .div_conteudo_nome {
+        width: 50%;
+        padding: 0.45rem;
+    }
+    .div_conteudo_funcao {
+        width: 15%;
+        padding: 0.45rem;
+    }
+    .div_conteudo_matricula,.div_conteudo_nome,.div_conteudo_grupo,.div_conteudo_funcao {
+        margin-left: 0.05rem;
+        margin-right: 0.05rem;
+    }
+    .div_geral_menu_botoes{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .div_botao_menu{
+        width: 42%;
+        margin: 0.25rem;
+    }
+    .div_rodape{
+        width: 94%;
+        height: 60px;
+        margin-left: 3%;
+    }
+    .logomarca{
+        width:22%;
+        margin-left: 39%;
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+  }

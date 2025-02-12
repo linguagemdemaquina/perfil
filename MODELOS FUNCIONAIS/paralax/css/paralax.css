@@ -1,0 +1,173 @@
+/* MODELO PADRÃO DE PARALAX SIMPLES - CSS / HTML */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+body {
+  margin: 0;
+  background-color: #030507;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.conteiner {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+  perspective: 5px;
+}
+.plano_de_fundo {
+  transform: translateZ(0);
+  width: 100%;
+  height: 320vh;
+  margin-left: 0%;
+  margin-top: -45vh;
+  background-image: url(../imagens_paralax/plano_de_fundo.jpeg);
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.sol {
+    transform: translateZ(-6px);
+    width: 160%;
+    height: 250vh;
+    margin-top: -330vh;
+    margin-left: -10%;
+    background-image: url(../imagens_paralax/sol.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    position: relative;
+   }
+.baloes {
+  transform: translateZ(-12px);
+  width:400%;
+  height:400vh;
+  margin-left:-145%;
+  margin-top:-360vh;
+  background-image: url(../imagens_paralax/baloes.png);
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.baloes_secundarios {
+    transform: translateZ(-3px);
+    width:120%;
+    height:110vh;
+    margin-left:25%;
+    margin-top:-230vh;
+    background-image: url(../imagens_paralax/baloes_secundarios.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    position: relative;
+  }
+.floresta {
+  transform: translateZ(-6px);
+  width: 240%;
+  height:380vh;
+  margin-left:-70%;
+  margin-top:-230vh;
+  background-image: url(../imagens_paralax/floresta.png);
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
+  }
+.detalhes {
+  transform: translateZ(-5px);
+  width:160%;
+  background-color:#030507;
+  height:160vh;
+  margin-top:-20vh;
+  margin-left:-40%;
+  padding-top: 0vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+}
+.titulo_camada_4{
+    width: 100%;
+    position: relative;
+    font-size: 5rem;
+    font-weight: bolder;    
+}
+.subtitulo_camada_4{
+    font-size: 3.5rem; 
+}
+.logomarca, .avatar, .github{
+    width: 8%;
+    clip-path:circle(50%);
+    margin-top: 10vh;
+    margin-right:1rem ;
+}
+.conteudo_camada_4{
+    margin-top: 2rem;
+    font-size: 6vh;
+    font-weight:lighter;
+}
+/* TELAS MEDIAS */
+@media screen and (max-width: 1024px){
+  .plano_de_fundo{
+    margin-top: -65vh;
+  }
+  .floresta{
+    margin-top: -190vh;
+  }
+  .detalhes{
+    margin-top:-65vh;
+  }
+  .logomarca, .avatar, .github{
+    width: 10%;
+  }
+}
+/* TELAS PEQUENAS */
+@media screen and (max-width: 800px){
+  .plano_de_fundo{
+    margin-top: -85vh;
+  }
+  .floresta{
+    margin-top: -200vh;
+  }
+  .detalhes{
+    margin-top:-80vh;
+  }
+  .logomarca, .avatar, .github{
+    width: 14%;
+  }
+}
+/* TABLETS */
+@media screen and (max-width: 640px){
+  .plano_de_fundo{
+    margin-top: -105vh;
+  }
+  .floresta{
+    margin-top: -210vh;
+  }
+  .detalhes{
+    margin-top:-85vh;
+  }
+  .logomarca, .avatar, .github{
+    width: 18%;
+  }
+}
+/* CELULARES */
+@media screen and (max-width: 480px){
+  .plano_de_fundo{
+    margin-top: -125vh;
+  }
+  .baloes{
+    margin-top:-355vh; 
+  }
+  .floresta{
+    margin-top: -218vh;
+  }
+  .detalhes{
+    font-size: 10px;
+    margin-top:-130vh;
+  }
+  .logomarca, .avatar, .github{
+    width: 20%;
+  }
+}
