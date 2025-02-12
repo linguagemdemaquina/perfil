@@ -21,7 +21,7 @@ class LoginApp(QWidget):
 
         # Imagem da Logomarca
         self.label_imagem = QLabel(self)
-        pixmap = QPixmap('imagens/logomarca/logomarca.png')
+        pixmap = QPixmap('imagens/logomarca')
         self.label_imagem.setPixmap(pixmap.scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.label_imagem.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_imagem.setStyleSheet("margin-top: 20px;")
@@ -104,7 +104,6 @@ class LoginApp(QWidget):
         self.profile_window.show()
 
 
-
 # Interface de Tela Principal do Perfil
 class TelaPrincipalPerfil(QWidget):
     def __init__(self):
@@ -123,10 +122,10 @@ class TelaPrincipalPerfil(QWidget):
 
         # Imagem da Perfil
         self.label_imagem = QLabel(self)
-        pixmap = QPixmap('imagens/perfil/perfil.png')
+        pixmap = QPixmap("imagens/perfil/perfil.png")
         self.label_imagem.setPixmap(pixmap.scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.label_imagem.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.label_imagem.setStyleSheet("margin-top: 20px; background-color: red;")
+        self.label_imagem.setStyleSheet("margin-top: 20px;")
         layout_interno.addWidget(self.label_imagem)
  
         self.setLayout(layout_interno)
