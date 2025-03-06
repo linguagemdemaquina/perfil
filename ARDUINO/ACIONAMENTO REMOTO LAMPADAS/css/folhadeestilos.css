@@ -1,0 +1,17 @@
+/* LINGUAGEM DE MAQUINA - LANDING PAGE - VERSION 2025' */
+body {
+  margin: 10% 5% 10% 5%;
+  background-color : #534c3e;
+  font-family: sans-serif;
+  color: #C8B08C;
+}
+.h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #C8B08C;
+}
+.h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #C8B08C;
+}
