@@ -1,6 +1,6 @@
 # Perfil
 
-Sou Marcelo Tosta, proprietário da linguagemdemaquina.com.br, profissional da área de tecnologia, com experiência no desenvolvimento, gestão e suporte de sistemas para internet, aplicativos web & mobile, sistemas industriais de controle (SDCD) e segurança (SIS), projetos nas áreas de design e marketing digital.
+Sou Marcelo Tosta, proprietário da linguagemdemaquina.com.br, profissional da área de tecnologia com experiência no desenvolvimento, gestão e suporte de sistemas para internet, aplicativos web & mobile, sistemas industriais de controle distribuído (SDCD) e sistemas supervisórios para segurança de processo (CLP/SIS), projetos nas áreas de design e marketing digital.
 <br>
 <br>
 Estou neste nicho desde 2016, quando comecei a atuar na cidade de Fortaleza-CE. 
