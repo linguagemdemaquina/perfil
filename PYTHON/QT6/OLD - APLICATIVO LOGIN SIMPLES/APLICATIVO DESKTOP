@@ -1,0 +1,142 @@
+import sys
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QSpacerItem, QSizePolicy, QDialog, QDialogButtonBox
+from PyQt6.QtGui import QPalette, QColor, QPixmap 
+from PyQt6.QtCore import Qt
+
+# Interface de Login
+class LoginApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setGeometry(100, 100, 320, 600)
+        self.setWindowTitle('App Desktop Python - PyQt6')
+
+        palette = QPalette()
+        palette.setColor(QPalette.ColorRole.Window, QColor('#AEA684'))
+        self.setPalette(palette)
+
+        layout = QVBoxLayout()
+
+        # Imagem da Logomarca
+        self.label_imagem = QLabel(self)
+        pixmap = QPixmap('imagens/logomarca/logomarca.png')
+        self.label_imagem.setPixmap(pixmap.scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+        self.label_imagem.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_imagem.setStyleSheet("margin-top: 20px;")
+        layout.addWidget(self.label_imagem)
+  
+        # Label de Login
+        self.label_nome_de_usuario = QLabel('Login:')
+        self.label_nome_de_usuario.setFixedHeight(40)
+        self.label_nome_de_usuario.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_nome_de_usuario.setStyleSheet("color: #383126; font-size: 16px; font-weight: bold;")    
+        layout.addWidget(self.label_nome_de_usuario)
+
+        # Campo de Login
+        self.campo_nome_de_usuario = QLineEdit(self)
+        self.campo_nome_de_usuario.setGeometry(100, 60, 20, 30)
+        self.campo_nome_de_usuario.setStyleSheet("border-radius: 5px; color: #383126; background-color: #9a8f65; font-size: 14px; font-weight: bold; padding: 5px 5px;")
+        layout.addWidget(self.campo_nome_de_usuario)
+
+        # Label de Senha
+        self.label_senha = QLabel('Senha:')
+        self.label_senha.setFixedHeight(40)
+        self.label_senha.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_senha.setStyleSheet("color: #383126; font-size: 16px; font-weight: bold;")
+        layout.addWidget(self.label_senha)
+
+        # Campo de Senha
+        self.campo_senha = QLineEdit(self)
+        self.campo_senha.setGeometry(50, 120, 140, 20)
+        self.campo_senha.setEchoMode(QLineEdit.EchoMode.Password)
+        self.campo_senha.setStyleSheet("border-radius: 5px; color: #383126; background-color: #9a8f65; font-size: 14px; font-weight: bold; padding: 5px 5px;")   
+        layout.addWidget(self.campo_senha)
+
+        # Espaçador
+        espacador_1 = QSpacerItem(20, 100, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        layout.addItem(espacador_1)
+
+        # Botão de Acesso
+        self.botao_login = QPushButton('Acessar', self)
+        self.botao_login.setGeometry(100, 160, 100, 30)
+        self.botao_login.setStyleSheet("border-radius: 5px; color: #ffffff; background-color: #726e5f; font-size: 16px; font-weight: bold; padding: 10px 20px;")
+        self.botao_login.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.botao_login.clicked.connect(self.check_login)
+        layout.addWidget(self.botao_login)
+
+        # Espaçador
+        espacador_2 = QSpacerItem(20, 80, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        layout.addItem(espacador_2)
+
+        self.setLayout(layout)
+
+    def check_login(self):
+        if self.campo_nome_de_usuario.text() == "meulogin" and self.campo_senha.text() == "senha":
+            self.open_profile_window()
+        else:
+            self.show_custom_alert("O login falhou")
+
+    # Caixa de mensagem de alerta de erro de login
+    def show_custom_alert(self, mensagem):
+        alert = QDialog(self)
+        alert.setWindowTitle("Ooooops!")
+        alert.setStyleSheet("background-color: #AEA684; color: #454440; padding: 10px 10px; font-size: 12px; font-weight: bold;")
+
+        layout = QVBoxLayout()
+        alert_label = QLabel(mensagem)
+        alert_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(alert_label)
+
+        button_box = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok)
+        button_box.button(QDialogButtonBox.StandardButton.Ok).setStyleSheet("width:180px; border-radius:5px; background-color: #726e5f; color: #ffffff; padding: 5px 10px; font-size: 12px; font-weight: bold;")
+        button_box.setAutoFillBackground(True)
+        button_box.setCursor(Qt.CursorShape.PointingHandCursor)
+        button_box.accepted.connect(alert.accept)
+        layout.addWidget(button_box)
+
+        alert.setLayout(layout)
+        alert.exec()
+
+    def open_profile_window(self):
+        self.profile_window = TelaPrincipalPerfil()
+        self.profile_window.show()
+
+
+
+# Interface de Tela Principal do Perfil
+class TelaPrincipalPerfil(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setGeometry(100, 100, 320, 600)
+        self.setWindowTitle('Perfil do Usuário')
+
+        palette = QPalette()
+        palette.setColor(QPalette.ColorRole.Window, QColor('#AEA684'))
+        self.setPalette(palette)
+
+        layout_interno = QVBoxLayout()
+
+        # Imagem da Perfil
+        self.label_imagem = QLabel(self)
+        pixmap = QPixmap('imagens/perfil/perfil.png')
+        self.label_imagem.setPixmap(pixmap.scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+        self.label_imagem.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_imagem.setStyleSheet("margin-top: 20px; background-color: red;")
+        layout_interno.addWidget(self.label_imagem)
+ 
+        self.setLayout(layout_interno)
+
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    login_app = LoginApp()
+    login_app.show()
+    sys.exit(app.exec())        
+
+
