@@ -1,11 +1,11 @@
-# Portifólio - Linguagemdemaquina.com.br
+# Perfil - Linguagemdemaquina.com.br
 
 Sou Marcelo Tosta, profissional da área de tecnologia, com experiência no desenvolvimento, gestão e suporte de sistemas para internet, aplicativos web & mobile, sistemas industriais de controle (SDCD) e segurança (SIS), projetos nas áreas de design e marketing digital.
 <br>
 <br>
 Estou neste nicho desde 2016, quando comecei a atuar na cidade de Fortaleza-CE. 
 <br>
-Porém, a vivência prática em ambiente industrial data de 2001.
+Porém, a vivência prática em ambiente industrial desde de 2001.
 <br>
 Meus projetos focam principalmente na integração de recursos, buscando a máxima eficiência e praticidade para o usuário. 
 <br>
@@ -26,13 +26,13 @@ Sintam-se à vontade para explorar, contribuir, aprimorar ajudando a construir s
 <br>
 <br>
 
-## QUEM SOU ##
+## Quem sou ##
 
 <kbd><img id="foto_pessoal" width="150px" height="150px" src="https://www.linguagemdemaquina.com.br/2025/imagens/foto_pessoal.jpg"></kbd>
 <br>
 ***Marcelo Tosta***
 <br>
-*FullStack Dev - Web | Mobile | Automação*
+*FullStack Dev - Web | Mobile | IoT | Automação*
 <br>
 <br>
 *Website : https://www.linguagemdemaquina.com.br*
@@ -68,30 +68,30 @@ Sintam-se à vontade para explorar, contribuir, aprimorar ajudando a construir s
 <br>
 <br>
 
-## COMPETÊNCIAS ##
+## Competências ##
 
-#### DESENVOLVIMENTO FRONT-END ####
+#### Desenvolvimento Front-End ####
 
 |HTML|CSS|JS|
 |:-------:|:--------:|:--------:|
 |<kbd><img id="html5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/ichtml.png"></kbd>|<kbd><img id="css3" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/iccss.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icjs.png"></kbd>|
 
 
-#### DESENVOLVIMENTO BACK-END ####
+#### Desenvolvimento Back-End ####
 
 |PHP|JAVA|PYTHON|PyQT|
 |:-------:|:--------:|:--------:|:--------:|
 |<kbd><img id="php" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icphp.png"></kbd>|<kbd><img id="java" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icjava.png"></kbd>|<kbd><img id="python" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icpython.png"></kbd>|<kbd><img id="qt5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icpyqt.png"></kbd>|
 
 
-#### UI/UX ####
+#### UI/UX - Design ####
 
 |XD|EXPRESS|PS|
 |:-------:|:--------:|:--------:|
 |<kbd><img id="xd" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icxd.png"></kbd>|<kbd><img id="adobe_express" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icax.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icps.png"></kbd>| 
 
 
-#### BASES DE DADOS ####
+#### Bases de Dados ####
 
 |MYSQL|NOSQL|
 |:-------:|:--------:|
@@ -106,6 +106,6 @@ Sintam-se à vontade para explorar, contribuir, aprimorar ajudando a construir s
 <br>
 <br>
 
-## REDES SOCIAIS ##
+## Redes Sociais ##
 [<kbd><img alt="instagram" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icinstagram.png" /></kbd>](https://www.instagram.com/linguagemdemaquina/)
 [<kbd><img alt="linkedin" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/iclinkedin.png" /></kbd>](https://www.linkedin.com/in/marcelotsantana/)
