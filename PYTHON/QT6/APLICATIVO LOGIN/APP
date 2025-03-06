@@ -21,7 +21,7 @@ class LoginApp(QWidget):
 
         # Imagem da Logomarca
         self.label_imagem = QLabel(self)
-        logomarca = QPixmap('imagens/logomarca/logo.png')
+        logomarca = QPixmap('imagens/logomarca/logomarca.png')
         self.label_imagem.setPixmap(logomarca.scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.label_imagem.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_imagem.setStyleSheet("margin-top: 20px;")

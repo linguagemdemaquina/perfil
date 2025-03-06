@@ -1,0 +1,9 @@
+/* IMPORTAÇÃO DE RECURSOS EXTERNOS - GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* PADRÃO DE CONFIGURAÇÕES - TAG BODY */
+body {
+    font-family: 'Nunito', sans-serif;
+    color:#FFF;
+    background-color: #1d1b1b;
+  }
