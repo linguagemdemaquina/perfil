@@ -1,0 +1,35 @@
+/* LINGUAGEM DE MAQUINA - PORTIFÓLIO */
+
+/* ESTILOS GERAIS */
+/* --------------- */
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap'); */
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+}
+
+
+
+
+/* AJUSTES DE RESPONSIVIDADE */
+/* --------------------------*/
+/* RESOLUÇÃO DESKTOP (MODERNOS) */
+@media (max-width: 1366px) {
+
+
+}
+/* RESOLUÇÃO DESKTOP (ANTIGOS) */
+@media (max-width: 1024px) {
+
+
+}
+/* RESOLUÇÃO MOBILE (MODERNOS) E TABLETS - PORTRAIT */
+@media (max-width: 800px) {
+
+}
+/* RESOLUÇÃO MOBILE (ANTIGOS) */
+@media (max-width: 390px) {
+
+
+}
