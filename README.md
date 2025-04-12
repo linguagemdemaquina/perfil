@@ -63,8 +63,8 @@ Sintam-se à vontade para explorar, contribuir, aprimorar ajudando a construir s
 <br>
 <br>
 <br>
-<kbd><img id="avatar" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icavatar.png"></kbd>
-<kbd><img id="logomarca" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icxicara.png"></kbd>
+<kbd><img id="avatar" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_avatar.png"></kbd>
+<kbd><img id="logomarca" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_logomarca_pequena.png"></kbd>
 <br>
 <br>
 
@@ -74,38 +74,38 @@ Sintam-se à vontade para explorar, contribuir, aprimorar ajudando a construir s
 
 |HTML|CSS|JS|
 |:-------:|:--------:|:--------:|
-|<kbd><img id="html5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/ichtml.png"></kbd>|<kbd><img id="css3" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/iccss.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icjs.png"></kbd>|
+|<kbd><img id="html5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_html.png"></kbd>|<kbd><img id="css3" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_css.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_js.png"></kbd>|
 
 
 #### Desenvolvimento Back-End ####
 
 |PHP|JAVA|PYTHON|PyQT|
 |:-------:|:--------:|:--------:|:--------:|
-|<kbd><img id="php" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icphp.png"></kbd>|<kbd><img id="java" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icjava.png"></kbd>|<kbd><img id="python" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icpython.png"></kbd>|<kbd><img id="qt5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icpyqt.png"></kbd>|
+|<kbd><img id="php" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_php.png"></kbd>|<kbd><img id="java" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_java.png"></kbd>|<kbd><img id="python" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_python.png"></kbd>|<kbd><img id="qt5" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_pyqt.png"></kbd>|
 
 
 #### UI/UX - Design ####
 
 |XD|EXPRESS|PS|
 |:-------:|:--------:|:--------:|
-|<kbd><img id="xd" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icxd.png"></kbd>|<kbd><img id="adobe_express" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icax.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icps.png"></kbd>| 
+|<kbd><img id="xd" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_xd.png"></kbd>|<kbd><img id="adobe_express" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_adobeexpress.png"></kbd>|<kbd><img id="js" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_ps.png"></kbd>| 
 
 
 #### Bases de Dados ####
 
 |MYSQL|NOSQL|
 |:-------:|:--------:|
-|<kbd><img id="mysql" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icmysql.png"></kbd>|<kbd><img id="nosql" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icnosql.png"></kbd>|
+|<kbd><img id="mysql" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_mysql.png"></kbd>|<kbd><img id="nosql" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_nosql.png"></kbd>|
 
 #### IDE'S ####
 
 |VSCODE|ANDROID|FLUTTER|
 |:-------:|:--------:|:--------:|
-|<kbd><img id="vscode" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icvscode.png"></kbd>|<kbd><img id="android" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icandroid.png"></kbd>|<kbd><img id="flutter" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icflutter.png"></kbd>|
+|<kbd><img id="vscode" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_vscode.png"></kbd>|<kbd><img id="android" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_android.png"></kbd>|<kbd><img id="flutter" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_flutter.png"></kbd>|
 
 <br>
 <br>
 
 ## Redes Sociais ##
-[<kbd><img alt="instagram" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/icinstagram.png" /></kbd>](https://www.instagram.com/linguagemdemaquina/)
-[<kbd><img alt="linkedin" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/portifolio/icones/iclinkedin.png" /></kbd>](https://www.linkedin.com/in/marcelotsantana/)
+[<kbd><img alt="instagram" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_instagram.png" /></kbd>](https://www.instagram.com/linguagemdemaquina/)
+[<kbd><img alt="linkedin" width="50px" height="50px" src="https://www.linguagemdemaquina.com.br/conteudo_github/icones/icone_linkedin.png" /></kbd>](https://www.linkedin.com/in/marcelotostadesantana/)
